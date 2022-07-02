@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+// NOTE: Commented-out as it interferes with React MUI styling
+// * {
+//   box-sizing: border-box !important;
+// }
+
+html {
+  width: 100vw !important;
+  height: 100vh !important;
+  background-color: rgb(228, 236, 231);
+}
+
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+// reset
+h1, h2, h3, p {
+  box-sizing: border-box !important;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+// paddings and margins
+
+.padded-regular {
+  padding: 10px;
+}
+
+.padded-large {
+  padding: 20px;
+}
+
+.margined {
+  margin: 20px;
+}
+
+.margined-vertically {
+  margin: 10px 0px;
+}
+
+.margined-horizontally {
+  margin: 0 10px;
+}

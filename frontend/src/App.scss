@@ -1,0 +1,30 @@
+.main-app-component {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: stretch;
+  height: 100vh;
+}
+
+.navbar {
+  height: 100%;
+  width: 250px;
+  background-color: pink;
+  overflow-y: scroll;
+}
+
+.content {
+  flex: 1;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.navbar {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll; 
+}
+
+.navbar::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}

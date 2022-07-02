@@ -1,0 +1,25 @@
+# virtual environment
+
+*environment*
+
+# pycaches
+
+*__pycache__*
+
+#  IDEs
+
+*.idea*
+
+# models
+*/models*
+
+*.pkl
+
+*.pickle
+
+*herd_backend/static*
+herd_backend/core/kw_model_keyphrase.zip
+herd_backend/core/models.zip
+herd_backend/herd_backend/__pycache__/settings.cpython-38.pyc
+herd_backend/herd_backend/__pycache__/urls.cpython-38.pyc
+herd_backend/herd_backend/__pycache__/wsgi.cpython-38.pyc

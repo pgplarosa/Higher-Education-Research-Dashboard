@@ -1,0 +1,23 @@
+.component {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.header, .subheader {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.subheader {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 0.75rem;
+}
+

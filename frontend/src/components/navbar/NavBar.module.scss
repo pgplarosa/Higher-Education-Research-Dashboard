@@ -1,0 +1,40 @@
+.component {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: start;
+    min-height: 100%;
+    width: 100%;
+    background-color: #234d3a;
+    overflow-y: hidden;
+}
+
+.component::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+.logo {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.main_logo {
+    width: 40%;
+    padding-top: 30px;
+}
+
+.main_name {
+    width: 60%;
+}
+
+.menu {
+    padding-top: 50px;
+}
+
+.list {
+    padding: 0px;
+}

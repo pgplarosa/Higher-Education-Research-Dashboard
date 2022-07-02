@@ -1,0 +1,14 @@
+.component {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: stretch;
+    width: 100%;
+    padding: 10px 0px;
+    gap: 10px;
+}
+
+.filter {
+    flex: 1;
+    max-width: 250px;
+}
