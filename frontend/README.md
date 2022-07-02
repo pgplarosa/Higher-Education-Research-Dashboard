@@ -46,7 +46,7 @@ The application is deployed and tested in an S3 environment.
 
 ### Backend
 
-1. Setup the [backend](https://github.com/dev-arielcatli/herd-backend).
+1. Setup the backend.
 1. Start the backend service.
 
 ### Frontend
